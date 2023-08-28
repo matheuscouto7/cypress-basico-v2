@@ -94,7 +94,7 @@ it('marca o tipo de atendimento "Ajuda"', function() {
   cy.get('#support-type > :nth-child(2) > input').check().should('be.checked')
 })
 it('marca ambos checkboxes, depois desmarca o último', function() {
-  cy.get('input[type="checkbox"]')
+  cy.get('input[tyype="checkbox"]')
   .check().should('be.checked')
   .last()
   .uncheck()
